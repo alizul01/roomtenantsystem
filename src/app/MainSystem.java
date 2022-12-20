@@ -1,7 +1,7 @@
 package app;
 
-import com.toedter.calendar.JCalendar;
-import com.toedter.calendar.JDateChooser;
+//import com.toedter.calendar.JCalendar;
+//import com.toedter.calendar.JDateChooser;
 
 import javax.swing.*;
 import java.awt.event.*;
@@ -12,14 +12,14 @@ public class MainSystem extends JDialog {
     private JButton buttonCancel;
     private JComboBox comboBox1;
     private JTextField textField1;
-    private JCalendar JCalendar1;
+//    private JCalendar JCalendar1;
     private JButton tambahRuanganButton;
     private JTextField textField2;
     private JButton deleteButton;
     private JTable table1;
     private JTextField textField3;
     private JTextField textField4;
-    private JDateChooser JDateChooser1;
+//    private JDateChooser JDateChooser1;
 
     public MainSystem() {
         setContentPane(contentPane);
@@ -72,6 +72,6 @@ public class MainSystem extends JDialog {
     }
 
     private void createUIComponents() {
-        JDateChooser1 = new JDateChooser();
+//        JDateChooser1 = new JDateChooser();
     }
 }
