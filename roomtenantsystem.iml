@@ -7,37 +7,19 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://C:/mysql-connector-java-8.0.30.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../../Code/Driver/mysql-connector-java-8.0.30.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Documents/mysql-connector-java-8.0.30/mysql-connector-java-8.0.30.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Compressed/jdatepicker-1.3.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Compressed/jcalendar-1.4/lib/jcalendar-1.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../../Code/Driver/jcalendar-1.4/lib/jcalendar-1.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
