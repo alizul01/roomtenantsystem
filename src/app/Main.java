@@ -22,7 +22,7 @@ public class Main extends JDialog {
     private JButton createRuanganButton;
     private JTextField tfTanggalPinjam;
     private JTextField tfSelesaiPinjam;
-    private JComboBox tfChooseRuangan;
+    private JComboBox<String> tfChooseRuangan;
 
     public Main() throws SQLException {
         setContentPane(contentPane);
@@ -36,12 +36,10 @@ public class Main extends JDialog {
             tfChooseRuangan.addItem(result.getString("nama_ruangan"));
         }
 
-//        table set tablehead
         String[] tableHead = {"Nama Ruangan", "Nama Peminjam", "No Hp", "Status", "Tanggal Pinjam", "Selesai Pinjam"};
         DefaultTableModel tableModel = new DefaultTableModel(tableHead, 0);
         tableData.setModel(tableModel);
 
-//        input all data from database to table
         String query2 = "SELECT * FROM peminjaman";
         ResultSet result2 = koneksi.state.executeQuery(query2);
         while (result2.next()) {
@@ -54,7 +52,6 @@ public class Main extends JDialog {
             tableModel.addRow(data);
         }
 
-//        design the table
         tableData.getColumnModel().getColumn(0).setPreferredWidth(100);
         createRuanganButton.addActionListener(new ActionListener() {
             @Override

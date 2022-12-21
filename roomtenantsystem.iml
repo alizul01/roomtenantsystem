@@ -7,31 +7,33 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://C:/Code/Driver/mysql-connector-java-8.0.30.jar!/" />
+          <root url="jar://$MODULE_DIR$/driver/flatlaf-3.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://C:/Code/Driver/jcalendar-1.4/lib/jcalendar-1.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/driver/mysql-connector-java-8.0.30.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Documents/mysql-connector-java-8.0.30/mysql-connector-java-8.0.30.jar!/" />
+          <root url="jar://$MODULE_DIR$/driver/rs2xml.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/driver/rs2xml.jar!/src" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>
