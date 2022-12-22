@@ -1,6 +1,7 @@
 package app;
 
 import Koneksi.Koneksi;
+import com.formdev.flatlaf.FlatIntelliJLaf;
 
 import javax.swing.*;
 import java.awt.event.*;
@@ -14,6 +15,11 @@ public class Tambah extends JDialog {
     private JTextField tfLokasi;
 
     public Tambah() {
+        try {
+            UIManager.setLookAndFeel(new FlatIntelliJLaf());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         setContentPane(contentTambah);
         setModal(true);
         getRootPane().setDefaultButton(buttonOK);
@@ -83,6 +89,5 @@ public class Tambah extends JDialog {
         Tambah dialog = new Tambah();
         dialog.pack();
         dialog.setVisible(true);
-        System.exit(0);
     }
 }

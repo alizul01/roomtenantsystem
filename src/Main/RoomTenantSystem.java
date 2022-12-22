@@ -146,6 +146,10 @@ public class RoomTenantSystem {
         deleteButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                int confirm = JOptionPane.showConfirmDialog(null, "Apakah anda yakin ingin menghapus data ini?", "Konfirmasi", JOptionPane.YES_NO_OPTION);
+                if (confirm == 1) {
+                    return;
+                }
                 String id = tfIdSearchBar.getText();
                 try {
                     koneksi = new Koneksi();
